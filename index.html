@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta name="viewpoint" content="with=device-width, initial scale=1.0" charset="UTF-8">
-    <title>Sport cars rental</title>
+    <title>FAST CARS rent</title>
     <!--- CSS --->
     <link rel="stylesheet" href="style.css">
     <!--- Font --->
@@ -17,37 +17,44 @@
 </head>
 
 <body>
+    <!--- Navbar --->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="details.html">CENNIK</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            OFERTA
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">AUDI R8</a></li>
+                            <li><a class="dropdown-item" href="#">NISSAN GTR(R35)</a></li>
+                            <li><a class="dropdown-item" href="#">PORSCHE 911</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" HREF="#">KONTAKT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <section class="header">
-        <!--- Navbar --->
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="details.html">DETAILS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="our_cars.html">OUR CARS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" HREF="#">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
 
         <div class="text-box">
-            <h1>Wypożyczalnia samochodów sportowych</h1>
+            <h1>Wypożyczalnia samochodów sportowych FAST CARS</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -60,23 +67,43 @@
     <section id="more">
         <div class="container">
             <div class="row text-center">
-                <div class="col-md-6 more">
-                    <img src="images/stock-photo-about-us.jpg" class="more-img">
-                    <h2>About us</h2>
+                <div class="col-md-4 more">
+                    <i class="fa fa-unlock-alt"></i>
+                    <h2>Wypożyczenie bez formalności</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                         consequat. Duis aute irure dolor.</p>
                 </div>
-                <div class="col-md-6 more">
-                    <img src="images/mapa.png" class="more-img">
-                    <h2>Where to find us</h2>
+                <div class="col-md-4 more">
+                    <i class="fa fa-map-o"></i>
+                    <h2>Dostawa na terenie całego kraju</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor.</p>
+                </div>
+                <div class="col-md-4 more">
+                    <i class="fa fa-clock-o"></i>
+                    <h2>Całodobowa obsługa klienta</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                         consequat. Duis aute irure dolor.</p>
                 </div>
             </div>
+        </div>
+
+    </section>
+
+    <section id="why_us">
+        <div class="text-box-why">
+            <h1>Dlaczego warto wypożyczyć auto z FAST CARS?</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor.
+            </p>
         </div>
 
     </section>

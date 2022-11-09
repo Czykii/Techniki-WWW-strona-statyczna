@@ -15,6 +15,10 @@
     padding: 0 !important;
 }
 
+.dropdown-menu{
+    background-image: linear-gradient(to right, rgba(58, 43, 144, 0.86), rgba(31, 33, 166, 0.86));
+}
+
 .navbar-nav li{
     padding: 0 10px;
 }
@@ -35,7 +39,7 @@
    outline: none !important;
     box-shadow: none !important;
 }
-/*----------------------------Strona główna-----------------------------------*/
+/*---------------------------- Header -----------------------------------*/
 .header{
     min-height: 100vh;
     width: 100%;
@@ -78,7 +82,7 @@
     background: cyan;
     transition: 1s;
 }
-/*----------------------------Strona główna niżej-----------------------------------*/
+/*---------------------------- Więcej -----------------------------------*/
 #more{
     padding: 80px 0;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/best_sportscar_514.jpg");
@@ -88,7 +92,7 @@
 
 .more-img{
     width: 100px;
-    height: 70px;
+    height: 90px;
     margin-top: 20px;
 }
 
@@ -102,4 +106,45 @@
     margin-top: 25px;
     color: white;
     font-weight: bold;
+}
+
+.fa-unlock-alt{
+    color: white;
+    font-size: 90px !important;
+    margin-top: 20px;
+}
+
+.fa-map-o{
+    color: white;
+    font-size: 90px !important;
+    margin-top: 20px;
+}
+
+.fa-clock-o{
+    color: white;
+    font-size: 90px !important;
+    margin-top: 20px;
+}
+
+/*---------------------------- Dlaczego my -----------------------------------*/
+
+#why_us{
+    background-image: linear-gradient(to right, rgba(31, 33, 166, 0.86), rgba(58, 43, 144, 0.86));
+}
+
+.text-box-why{
+    background-image: linear-gradient(to right, rgba(31, 33, 166, 0.86), rgba(58, 43, 144, 0.86));
+    position: absolute;
+    text-align: center;
+}
+
+.text-box-why h1{
+    color: white;
+    text-align: right;
+}
+
+.text-box-why p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
 }
