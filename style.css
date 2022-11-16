@@ -39,7 +39,7 @@
    outline: none !important;
     box-shadow: none !important;
 }
-/*---------------------------- Header -----------------------------------*/
+/*---------------------------- Plik index.html -----------------------------------*/
 .header{
     min-height: 100vh;
     width: 100%;
@@ -50,7 +50,7 @@
 }
 
 .text-box{
-    width: 90%;
+    width: 70%;
     color: white;
     position: absolute;
     top: 50%;
@@ -125,9 +125,7 @@
     font-size: 90px !important;
     margin-top: 20px;
 }
-
 /*---------------------------- Dlaczego my -----------------------------------*/
-
 #why_us{
     padding: 80px;
     background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
@@ -147,3 +145,79 @@
     font-size: 14px;
     color: white;
 }
+
+.card{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+}
+
+.card-title{
+    color: white;
+}
+
+.card-text{
+    color: white;
+}
+/*---------------------------- Footer -----------------------------------*/
+#footer{
+    text-align: center;
+    padding: 3px;
+    background-color: #303030;
+    font-size: 1rem;
+    color: white;
+}
+/*---------------------------- Plik contact.html -----------------------------------*/
+#contact{
+    padding: 80px;
+    background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+}
+
+.bi-alarm{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 43px;
+    margin-left: 95px;
+}
+
+.fa-map-marker{
+    color: white;
+    font-size: 90px !important;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 110px;
+}
+
+.fa-phone{
+    color: white;
+    font-size: 90px !important;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 110px;
+}
+
+.card-contact{
+    border: cyan 2px solid;
+    padding: 3px;
+    align-content: center;
+}
+
+.card-title-work{
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+
+.card-title-contact{
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+
+.card-contact p{
+    text-align: center;
+}
+
+#mapa{
+    padding: 80px;
+    background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+}
+
