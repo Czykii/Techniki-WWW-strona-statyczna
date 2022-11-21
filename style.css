@@ -20,19 +20,18 @@
 }
 
 .dropdown-item:hover,.dropdown-item:active{
+    color: black; !important;
     background: cyan !important;
     transition: 1s;
 }
 
-.navbar-nav li{
-    padding: 0 10px;
-}
-
 .navbar-nav li a{
     color: white !important;
-    font-weight: normal;
-    float: right;
-    text-align: left;
+}
+
+.navbar-nav li a:hover{
+    color: cyan !important;
+    transition: 1s;
 }
 
 .fa-bars{
@@ -41,7 +40,7 @@
 }
 
 .navbar-toggler{
-   outline: none !important;
+    outline: none !important;
     box-shadow: none !important;
 }
 /*---------------------------- Plik index.html -----------------------------------*/
@@ -63,9 +62,7 @@
     transform: translate(-50%,-50%);
     text-align: center;
 }
-.text-box h1{
-    font-size: 62px;
-}
+
 .text-box p{
     margin: 10px 0 40px;
     font-size: 14px;
@@ -165,8 +162,7 @@
     color: white;
 }
 /*---------------------------- Plik contact.html -----------------------------------*/
-#contact{
-    padding: 80px;
+.contact{
     background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
     text-align: center;
 }
@@ -215,7 +211,34 @@
 
 #mapa{
     text-align: center;
-    padding: 80px;
+    margin-top: 80px;
+}
+
+/*---------------------------- Plik details.html -----------------------------------*/
+
+.details{
     background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
 }
 
+.first-table{
+    color: white;
+}
+
+.table tr{
+    color: white;
+}
+
+.second-table{
+    color: white;
+    margin-top: 80px;
+}
+
+.third-table{
+    color: white;
+    margin-top: 80px;
+}
+
+.fourth-table{
+    color: white;
+    margin-top: 80px;
+}
