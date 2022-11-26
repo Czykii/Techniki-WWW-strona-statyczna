@@ -3,7 +3,9 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
 /*----------------------------Navbar-----------------------------------*/
+
 #nav-bar{
     position: sticky;
     top: 0;
@@ -47,7 +49,50 @@
     outline: none !important;
     box-shadow: none !important;
 }
-/*---------------------------- Plik index.html -----------------------------------*/
+
+/*---------------------------- Footer -----------------------------------*/
+
+#footer{
+    text-align: center;
+    padding: 3px;
+    background-color: #303030;
+    font-size: 1rem;
+    color: white;
+}
+
+.facebook{
+    color: white;
+}
+
+.facebook:hover{
+    color: dodgerblue !important;
+    transition: 1s;
+}
+
+.instagram{
+    color: white;
+}
+
+.instagram:hover{
+    color: hotpink !important;
+    transition: 1s;
+}
+
+.youtube{
+    color: white;
+}
+
+.youtube:hover{
+    color: red !important;
+    transition: 1s;
+}
+
+#footer a{
+    text-decoration: none;
+}
+
+/*---------------------------- Sekcja tytułowa -----------------------------------*/
+
 .header{
     min-height: 100vh;
     width: 100%;
@@ -88,7 +133,9 @@
     background: cyan;
     transition: 1s;
 }
+
 /*---------------------------- Więcej -----------------------------------*/
+
 #more{
     padding: 80px 0;
     background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
@@ -129,6 +176,7 @@
     font-size: 90px !important;
     margin-top: 20px;
 }
+
 /*---------------------------- Dlaczego my -----------------------------------*/
 
 .text-box-why{
@@ -157,15 +205,9 @@
 .card-text{
     color: white;
 }
-/*---------------------------- Footer -----------------------------------*/
-#footer{
-    text-align: center;
-    padding: 3px;
-    background-color: #303030;
-    font-size: 1rem;
-    color: white;
-}
-/*---------------------------- Plik contact.html -----------------------------------*/
+
+/*---------------------------- contact.html -----------------------------------*/
+
 .contact{
     background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
     text-align: center;
@@ -218,7 +260,7 @@
     margin-top: 80px;
 }
 
-/*---------------------------- Plik details.html -----------------------------------*/
+/*---------------------------- details.html -----------------------------------*/
 
 .details{
     background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
@@ -245,4 +287,38 @@
 .fourth-table{
     color: white;
     margin-top: 80px;
+}
+
+/*---------------------------- nissangtr.html -----------------------------------*/
+
+.gtr{
+    background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+}
+
+.header-gtr{
+    margin-top: 40px;
+    color: white;
+    background-image: url("images/gtr/gtr3.png");
+    height: 356px;
+    background-size: cover;
+    background-position-y: center;
+
+}
+
+.gtr{
+
+}
+
+/*---------------------------- audir8.html -----------------------------------*/
+
+.audir8{
+    background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+}
+
+.header-audi{
+    background-image: url("images/audi/audi4.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 699px;
+    color: cyan;
 }
